@@ -163,6 +163,10 @@ then performs steps 10, 12 (executed versus share), and 13.
 
 ## Boundaries and reporting
 
+- For skill maintenance or release synchronization (not a research task), use
+  `scripts/check_skill_sync.py` to compare maintenance files before claiming
+  the installed and published versions are synchronized. It is read-only;
+  inspect and merge differences, never blindly overwrite personal customizations.
 - Preserve user-selected datasets, Assets, dates, ROI, and scientific choices.
   Never silently substitute sources, widen dates, treat NoData as observations,
   or fabricate values.
