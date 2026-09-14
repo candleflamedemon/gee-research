@@ -1,0 +1,7 @@
+interface:
+  display_name: "GEE科研助理Skill"
+  short_description: "运行并诊断 Google Earth Engine 遥感科研工作流"
+  default_prompt: "使用 $gee-research 执行、验证并诊断我的 Google Earth Engine 遥感科研任务。"
+
+policy:
+  allow_implicit_invocation: true
